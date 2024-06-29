@@ -107,7 +107,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.player1, function (sprite, o
         . . . . . . . . . . . . . . . . 
         `, P2, -80, 0)
     if (true) {
-        sprites.destroy(P1)
+        sprites.destroy(P2)
     }
 })
 controller.player2.onButtonEvent(ControllerButton.Up, ControllerButtonEvent.Pressed, function () {
